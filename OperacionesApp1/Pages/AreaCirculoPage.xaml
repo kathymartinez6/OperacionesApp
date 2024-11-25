@@ -1,0 +1,13 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Área del Círculo">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Radio del círculo:" />
+        <Entry x:Name="RadioCirculo" Placeholder="Ingresa el radio" Keyboard="Numeric" />
+
+        <Label x:Name="ResultadoCirculo" Text="Resultado: -" FontAttributes="Bold" />
+
+        <Button Text="Calcular" Clicked="CalcularCirculo_Clicked" />
+        <Button Text="Limpiar" Clicked="LimpiarCirculo_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

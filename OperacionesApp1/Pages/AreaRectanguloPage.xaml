@@ -1,0 +1,16 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Área del Rectángulo">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Base del rectángulo:" />
+        <Entry x:Name="BaseRectangulo" Placeholder="Ingresa la base" Keyboard="Numeric" />
+
+        <Label Text="Altura del rectángulo:" />
+        <Entry x:Name="AlturaRectangulo" Placeholder="Ingresa la altura" Keyboard="Numeric" />
+
+        <Label x:Name="ResultadoRectangulo" Text="Resultado: -" FontAttributes="Bold" />
+
+        <Button Text="Calcular" Clicked="CalcularRectangulo_Clicked" />
+        <Button Text="Limpiar" Clicked="LimpiarRectangulo_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>
